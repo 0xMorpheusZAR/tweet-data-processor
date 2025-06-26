@@ -35,7 +35,7 @@ To process your own tweets and create a training and validation set, please foll
 
 After following these steps, you will have your own `train.jsonl` and `val.jsonl` files ready for use.
 
-4. **Analyze tweet lengths (Optional):**
+4. **Analyze tweet lengths (optional):**
    The `analyze_tweet_lengths.py` script can be used to help you get a distribution of your tweet lengths. This can be useful for setting a `max_length` value for some fine-tuning jobs.
 
    ```bash
