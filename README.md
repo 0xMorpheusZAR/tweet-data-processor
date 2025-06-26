@@ -49,3 +49,6 @@ After following these steps, you will have your own `train.jsonl` and `val.jsonl
    ```
 
    Note: This is not required for all fine-tuning services. For example, Nebius handles this for you.
+
+5. **Head over to Nebius AI Studio!**
+[Go to the Nebius AI Studio](https://nebius.com/services/studio-inference-service?utm_medium=cpc&utm_source=yoloco&utm_campaign=harpercarrollai) and watch the [Reel](https://www.instagram.com/p/DLXm1YIRts9/) for instructions! Let me know if you have any questions!
