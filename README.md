@@ -8,6 +8,8 @@ To process your own tweets and create a training and validation set, please foll
 2. **Process your tweets:**
    Run the `process_tweets.py` script. This script will read the `tweets.js` file and create `data.jsonl`.
 
+   When you run the script, you will be prompted to enter your name or identifier (for example, `Harper Carroll AI`). This will be used in the prompt, e.g., `Write a tweet in the style of Harper Carroll AI`.
+
    ```bash
    python process_tweets.py
    ```

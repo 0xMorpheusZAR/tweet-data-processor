@@ -1,7 +1,7 @@
 import json
 import random
 
-def process_tweets():
+def process_tweets(user_identifier):
     # Initialize empty dataset
     dataset = []
     example_tweets = []
@@ -46,15 +46,7 @@ def process_tweets():
             # Skip tweets that start with '@'
             if not full_text.startswith('@') and not full_text.startswith('RT'):
                 # Create a prompt that works with both instruction and chat formats
-                prompt = f"""Write a tweet in the style of Harper Carroll AI. Here are some examples:
-
-{example_tweets[0]}
-
-{example_tweets[1]}
-
-{example_tweets[2]}
-
-Now write a new tweet:"""
+                prompt = f"""Write a tweet in the style of {user_identifier}. Here are some examples:\n\n{example_tweets[0]}\n\n{example_tweets[1]}\n\n{example_tweets[2]}\n\nNow write a new tweet:"""
                 
                 dataset.append({
                     "prompt": prompt,
@@ -79,4 +71,5 @@ Now write a new tweet:"""
 if __name__ == "__main__":
     # Set random seed for reproducibility
     random.seed(42)
-    process_tweets() 
+    user_identifier = input("Enter your name or identifier to use in the prompt (e.g. 'Harper Carroll AI' for 'Write a tweet in the style of Harper Carroll AI'): ")
+    process_tweets(user_identifier) 
