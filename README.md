@@ -35,7 +35,7 @@ To process your own tweets and create a training and validation set, please foll
 
 After following these steps, you will have your own `train.jsonl` and `val.jsonl` files ready for use.
 
-4. **Analyze Tweet Lengths (Optional):**
+4. **Analyze tweet lengths (Optional):**
    The `analyze_tweet_lengths.py` script can be used to help you get a distribution of your tweet lengths. This can be useful for setting a `max_length` value for some fine-tuning jobs.
 
    ```bash
@@ -50,5 +50,5 @@ After following these steps, you will have your own `train.jsonl` and `val.jsonl
 
    Note: This is not required for all fine-tuning services. For example, Nebius handles this for you.
 
-5. **Head over to Nebius AI Studio!**
+5. **Fine-tune your model!**
 [Go to the Nebius AI Studio](https://nebius.com/services/studio-inference-service?utm_medium=cpc&utm_source=yoloco&utm_campaign=harpercarrollai) and watch the [Reel](https://www.instagram.com/p/DLXm1YIRts9/) for instructions! Let me know if you have any questions!
