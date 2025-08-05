@@ -344,19 +344,32 @@ class AdvancedContentGenerator:
                 "Here's what everyone's missing about {topic}:",
                 "Let's talk about {topic}:",
                 "The market is telling us something about {topic}:",
-                "Most people don't understand {topic}."
+                "Most people don't understand {topic}.",
+                "A lot of people ask why {topic}",
+                "{topic} stopped being {old_state} years ago"
             ],
             "analysis_structures": [
                 "1. {point1}\\n\\n2. {point2}\\n\\n3. {point3}",
                 "• {point1}\\n• {point2}\\n• {point3}",
-                "{observation}\\n\\n{analysis}\\n\\n{conclusion}"
+                "{observation}\\n\\n{analysis}\\n\\n{conclusion}",
+                "{statement1}\\n\\n{statement2}\\n\\n{statement3}"
             ],
             "conclusions": [
                 "Position accordingly.",
                 "Think about it.",
                 "Remember this.",
                 "Key takeaway: {takeaway}",
-                "DYOR as always."
+                "DYOR as always.",
+                "This is why I do what I do.",
+                "Smart money already knows how this movie ends.",
+                "But hey, that doesn't sell $997 courses."
+            ],
+            "power_phrases": [
+                "escape velocity",
+                "zero to inevitable",
+                "The reality is much more stark",
+                "Smart, hungry, relentless",
+                "The type who actually executes"
             ]
         }
     
