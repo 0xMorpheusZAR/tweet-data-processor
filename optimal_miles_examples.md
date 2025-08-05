@@ -112,4 +112,37 @@ But hey, that doesn't sell $997 courses.
 
 ---
 
+## Wealth Anxiety Pattern
+
+**Context**: Economic commentary, fiat debasement, wealth insecurity
+
+**Optimal Output:**
+```
+The wealth goalposts keep moving.
+
+$100k = broke
+$1M = trapped
+$10M+ = anxious
+
+Fiat dilution so severe that standing still means drowning. Even winners feel like they're losing.
+
+Saylor carries BTC whales on his back while old money clings to bonds their bankers sold them.
+
+This isn't about Bitcoin.
+
+It's about a system where nobody feels secure at any level.
+
+The acceleration is just beginning.
+```
+
+**Why This Works:**
+- Opens with universal observation
+- Stark wealth breakdown with emotional descriptors
+- "Standing still means drowning" - visceral metaphor
+- Saylor reference without evangelizing
+- Broader systemic point beyond crypto
+- Ominous close about acceleration
+
+---
+
 Last updated: December 2024
