@@ -1,5 +1,7 @@
 # Tweet Processing for Fine-Tuning
 
+> **Framework Notice**: This repository implements the [SuperClaude Framework](framework/FRAMEWORK_INTEGRATION.md) as its standard development and operational framework. See the [Personas Guide](framework/docs/personas-guide.md) for detailed information about AI-assisted development practices.
+
 To process your own tweets and create a training and validation set, please follow these steps:
 
 1. **Add your tweets:**
