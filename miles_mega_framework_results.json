@@ -1,0 +1,197 @@
+{
+  "generated_examples": [
+    {
+      "tweet": "The Bitcoin opportunity is clear.\\n\\nPosition accordingly.",
+      "pattern": "Question Hook Master",
+      "tier": 1,
+      "base_engagement": 6487,
+      "multipliers": 2.25,
+      "predicted_engagement": 14595,
+      "roi_score": 9.8,
+      "success_probability": 0.92,
+      "word_count": 6,
+      "optimization_details": {
+        "micro_patterns_applied": [
+          "power_endings: Position accordingly."
+        ],
+        "linguistic_devices": [],
+        "psychological_drivers": [
+          "curiosity",
+          "reflection",
+          "paradigm shift"
+        ]
+      }
+    },
+    {
+      "tweet": "The market crash opportunity is clear.\\n\\nPosition accordingly.",
+      "pattern": "Question Hook Master",
+      "tier": 1,
+      "base_engagement": 6487,
+      "multipliers": 1.61,
+      "predicted_engagement": 10444,
+      "roi_score": 9.8,
+      "success_probability": 0.92,
+      "word_count": 7,
+      "optimization_details": {
+        "micro_patterns_applied": [
+          "power_endings: Position accordingly."
+        ],
+        "linguistic_devices": [],
+        "psychological_drivers": [
+          "curiosity",
+          "reflection",
+          "paradigm shift"
+        ]
+      }
+    },
+    {
+      "tweet": "The DeFi opportunity is clear.\\n\\nPosition accordingly.",
+      "pattern": "Micro-Pattern Weaver",
+      "tier": 2,
+      "base_engagement": 4800,
+      "multipliers": 1.61,
+      "predicted_engagement": 7728,
+      "roi_score": 8.2,
+      "success_probability": 0.85,
+      "word_count": 6,
+      "optimization_details": {
+        "micro_patterns_applied": [
+          "power_endings: Position accordingly."
+        ],
+        "linguistic_devices": [],
+        "psychological_drivers": [
+          "exclusivity",
+          "simplicity",
+          "wisdom"
+        ]
+      }
+    },
+    {
+      "tweet": "The altcoins opportunity is clear.\\n\\nPosition accordingly.",
+      "pattern": "Micro-Pattern Weaver",
+      "tier": 2,
+      "base_engagement": 4800,
+      "multipliers": 1.61,
+      "predicted_engagement": 7728,
+      "roi_score": 8.2,
+      "success_probability": 0.85,
+      "word_count": 6,
+      "optimization_details": {
+        "micro_patterns_applied": [
+          "power_endings: Position accordingly."
+        ],
+        "linguistic_devices": [],
+        "psychological_drivers": [
+          "exclusivity",
+          "simplicity",
+          "wisdom"
+        ]
+      }
+    },
+    {
+      "tweet": "The trading opportunity is clear.\\n\\nPosition accordingly.",
+      "pattern": "Paradox Master",
+      "tier": 3,
+      "base_engagement": 3200,
+      "multipliers": 1.61,
+      "predicted_engagement": 5152,
+      "roi_score": 6.8,
+      "success_probability": 0.75,
+      "word_count": 6,
+      "optimization_details": {
+        "micro_patterns_applied": [
+          "power_endings: Position accordingly."
+        ],
+        "linguistic_devices": [],
+        "psychological_drivers": [
+          "wisdom",
+          "counter-intuitive truth",
+          "memorable insight"
+        ]
+      }
+    },
+    {
+      "tweet": "The risk management opportunity is clear.\\n\\nPosition accordingly.",
+      "pattern": "Paradox Master",
+      "tier": 3,
+      "base_engagement": 3200,
+      "multipliers": 1.61,
+      "predicted_engagement": 5152,
+      "roi_score": 6.8,
+      "success_probability": 0.75,
+      "word_count": 7,
+      "optimization_details": {
+        "micro_patterns_applied": [
+          "power_endings: Position accordingly."
+        ],
+        "linguistic_devices": [],
+        "psychological_drivers": [
+          "wisdom",
+          "counter-intuitive truth",
+          "memorable insight"
+        ]
+      }
+    }
+  ],
+  "framework_analysis": {
+    "framework_version": "MEGA v1.0",
+    "total_patterns": 10,
+    "tier_analysis": {
+      "tier_1": {
+        "pattern_count": 3,
+        "avg_engagement": 5717.333333333333,
+        "avg_roi": 9.266666666666667,
+        "avg_success_rate": 0.9166666666666666
+      },
+      "tier_2": {
+        "pattern_count": 3,
+        "avg_engagement": 4500.0,
+        "avg_roi": 7.833333333333333,
+        "avg_success_rate": 0.8233333333333333
+      },
+      "tier_3": {
+        "pattern_count": 4,
+        "avg_engagement": 2675.0,
+        "avg_roi": 6.075,
+        "avg_success_rate": 0.7125
+      }
+    },
+    "top_power_phrases": [
+      [
+        "Position accordingly.",
+        1.4
+      ],
+      [
+        "Think about it.",
+        1.35
+      ],
+      [
+        "Most will miss it.",
+        1.3
+      ],
+      [
+        "Few understand this.",
+        1.25
+      ],
+      [
+        "This is the way.",
+        1.2
+      ]
+    ],
+    "optimal_word_range": [
+      12,
+      18
+    ],
+    "highest_roi_pattern": "question_hook_master",
+    "highest_engagement_pattern": "question_hook_master",
+    "content_themes": 5,
+    "linguistic_devices": 10,
+    "data_foundation": {
+      "tweets_analyzed": "11,788 total",
+      "top_tweets_studied": 100,
+      "unique_patterns_found": 10,
+      "avg_top100_engagement": 4831
+    }
+  },
+  "timestamp": "2025-08-05T14:21:19.093448"
+}

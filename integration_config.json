@@ -1,0 +1,21 @@
+{
+  "dataset_integration": {
+    "primary_source": "miles_1000_enhanced.jsonl",
+    "finetune_source": "miles_finetune_enhanced.json",
+    "merge_strategy": "weighted",
+    "weights": {
+      "primary": 0.7,
+      "finetune": 0.3
+    }
+  },
+  "pattern_recognition": {
+    "use_finetune_examples": true,
+    "min_confidence": 0.6
+  },
+  "generation_config": {
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "use_examples": true,
+    "example_count": 3
+  }
+}
