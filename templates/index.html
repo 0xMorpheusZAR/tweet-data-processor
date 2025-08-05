@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miles Deutscher AI - Twitter Testing Interface</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐦 Miles Deutscher AI</h1>
+            <p>Twitter/X Input → Miles-Style Output Testing</p>
+        </header>
+
+        <main>
+            <!-- Input Section -->
+            <section class="input-section">
+                <h2>Compose Tweet</h2>
+                <div class="input-wrapper">
+                    <textarea 
+                        id="tweetInput" 
+                        placeholder="Type anything: 'btc analysis', 'thoughts on eth', 'bear market', or any topic..."
+                        maxlength="280"
+                        rows="3"
+                    ></textarea>
+                    <div class="input-footer">
+                        <span id="charCount">0 / 280</span>
+                        <button id="generateBtn" class="primary-btn">Generate Miles Tweet</button>
+                    </div>
+                </div>
+                
+                <!-- Quick Examples -->
+                <div class="quick-examples">
+                    <span>Try:</span>
+                    <button class="example-btn" data-text="btc looking bullish">Market Analysis</button>
+                    <button class="example-btn" data-text="is this the top">Question</button>
+                    <button class="example-btn" data-text="everyone wants to be rich">Philosophical</button>
+                    <button class="example-btn" data-text="gm">Quick Take</button>
+                </div>
+            </section>
+
+            <!-- Output Section -->
+            <section class="output-section" id="outputSection" style="display: none;">
+                <h2>Generated Tweets</h2>
+                <div id="outputContainer" class="output-container">
+                    <!-- Generated tweets will appear here -->
+                </div>
+            </section>
+
+            <!-- Analytics Section -->
+            <section class="analytics-section" id="analyticsSection" style="display: none;">
+                <h2>Style Analysis</h2>
+                <div id="analyticsContainer" class="analytics-container">
+                    <!-- Analytics will appear here -->
+                </div>
+            </section>
+
+            <!-- Examples Section -->
+            <section class="examples-section">
+                <div class="examples-header">
+                    <h2>Real Miles Tweets</h2>
+                    <button id="loadExamplesBtn" class="secondary-btn">Load Examples</button>
+                </div>
+                <div id="examplesContainer" class="examples-container" style="display: none;">
+                    <!-- Examples will appear here -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Testing Interface | Model: Miles Deutscher AI v1.0</p>
+        </footer>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

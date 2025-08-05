@@ -1,0 +1,27 @@
+{
+  "dataset_stats": {
+    "total_examples": 741,
+    "estimated_tokens": 127525,
+    "unique_vocabulary": 3052,
+    "market_content_ratio": 0.3684210526315789
+  },
+  "recommended_config": {
+    "batch_size": 4,
+    "num_epochs": 3,
+    "learning_rate": "2e-5",
+    "max_length": 850,
+    "warmup_steps": 18,
+    "evaluation_steps": 46,
+    "save_steps": 92,
+    "weight_decay": 0.01,
+    "adam_epsilon": 1e-08,
+    "gradient_accumulation_steps": 1
+  },
+  "generation_config": {
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "frequency_penalty": 0.3,
+    "presence_penalty": 0.1,
+    "max_tokens": 280
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "total_tweets_analyzed": 994,
+  "structures": {
+    "1_part": 405,
+    "3_part": 180,
+    "2_part": 185,
+    "4_part": 136,
+    "5_part": 51,
+    "7_part": 10,
+    "6_part": 19,
+    "8_part": 6,
+    "9_part": 2
+  },
+  "top_topics": {
+    "trading": 332,
+    "altcoins": 153,
+    "bitcoin": 107,
+    "market_sentiment": 106,
+    "defi": 39,
+    "philosophy": 32,
+    "macro": 26,
+    "nft": 3
+  },
+  "optimal_parameters": {
+    "preferred_structure": "7_part",
+    "optimal_length": 137,
+    "best_posting_times": [
+      14,
+      16,
+      19
+    ],
+    "high_engagement_patterns": [],
+    "vocabulary_focus": []
+  },
+  "high_performers_count": 193,
+  "vocabulary_size": 4072,
+  "timestamp": "2025-08-05T14:05:43.520915"
+}

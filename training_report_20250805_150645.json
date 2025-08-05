@@ -1,0 +1,29 @@
+{
+  "dataset_file": "miles_training_optimized_20250805_150645.jsonl",
+  "timestamp": "2025-08-05T15:06:45.475477",
+  "statistics": {
+    "total_examples": 432,
+    "duplicates_removed": 3,
+    "average_quality": 0.6971666666666666,
+    "structure_distribution": {
+      "2_part": 80,
+      "1_part": 102,
+      "5_part": 38,
+      "3_part": 102,
+      "4_part": 89,
+      "7_part": 6,
+      "8_part": 5,
+      "6_part": 9,
+      "9_part": 1
+    },
+    "source_distribution": {
+      "1000_tweets_fetch": 427,
+      "manual_addition": 5
+    }
+  },
+  "quality_analysis": {
+    "high_quality": 226,
+    "medium_quality": 168,
+    "low_quality": 38
+  }
+}
